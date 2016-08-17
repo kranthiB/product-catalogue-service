@@ -1,0 +1,6 @@
+applications:
+- name: product-catalogue-service
+  memory: 512M
+  instances: 1
+  host: product-catalogue-service
+  path: ./target/product-catalogue-service-1.0.jar  
